@@ -1,0 +1,19 @@
+{
+	"name": "petitFatFS",
+	"version": "0.9.0",
+	"description": "minimum sub-set of FatFs for 8-bit microcontrolers",
+	"keywords": "oled, ssd1306, display, arduino, atmega328",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/m328pb/petitfatfs"
+	},
+	"authors":{
+		"name":"Michal Zielaskowski",
+		"email":"michal.zielaskowski@gmail.com"
+	},
+	"license":"GPL-3.0",
+	"platforms":"atmelavr",
+	"examples":[
+		"examples/*/*.c"
+	]
+}
